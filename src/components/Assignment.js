@@ -16,6 +16,7 @@ class Assignment extends React.Component {
     constructor(props) {
       super(props);
       this.state = {selected: 0, assignments: []};
+      //this.state = { selected: 0, assignments: [], newAssignment: {} };
     };
  
    componentDidMount() {
@@ -87,6 +88,8 @@ class Assignment extends React.Component {
           </div>
       )
   }
+
+  
 }  
 
 export default Assignment;
